@@ -1,0 +1,14 @@
+Load Input, task_01/input.txt;
+Rand Random, 8, -5, 5;
+Concat Input, Random;
+Stats Input;
+Sort Input+;
+Print Input, all;
+Copy Input, 1, 4, Part;
+Print Part, all;
+Remove Input, 0, 2;
+Shuffle Part;
+Print Part, all;
+Save Input, task_01/output.txt;
+Free(Random);
+

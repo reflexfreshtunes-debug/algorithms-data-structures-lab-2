@@ -1,0 +1,6 @@
+build/
+task_01/output.txt
+.vs/
+*.user
+*.suo
+
